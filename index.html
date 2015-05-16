@@ -1,0 +1,153 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VANHIKE | Home</title>
+    <link rel="icon" type="image/png"  href="img/favicon.png"/>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="genericons/genericons.css" />
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300' rel='stylesheet' type='text/css'>
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+    
+<body>
+    
+    <div id='homephotos'>
+        <div class='large-12 columns'>
+        <div class='large-3 medium-3 small-3 columns'>
+        <img class='homeimgs' src='img/5.jpg'>
+            <span class='homeheaders1'><a href='vancouvercity.html'>VANCOUVER CITY</a></span>
+        </div>
+
+        <div class='large-3 medium-3 small-3 columns'>
+        <img class='homeimgs' src='img/2.jpg'>
+            <span class='homeheaders2'><a href='whistler.html'>WHISTLER</a></span>
+        </div>
+
+        <div class='large-3 medium-3 small-3 columns'>
+        <img class='homeimgs' src='img/3.jpg'>
+            <span class='homeheaders3'><a href='northshore.html'>THE NORTH SHORE</a></span>
+        </div>
+
+        <div class='large-3 medium-3 small-3 columns'>
+        <img class='homeimgs' src='img/4.jpg'>
+            <span class='homeheaders4'><a href='tandd.html'>TSAWWASSEN AND DELTA</a></span>
+        </div>
+        </div>    
+
+    </div>
+
+
+    
+
+
+    <div id='mainfooter'>
+          <footer>
+                <div>
+                  <div class="large-12 columns bgfooter">
+                <div class="large-3 columns">
+                    <img id='footerlogo' src='img/vanhike_logo_small.png'/>
+                    <p class="footername">Emma Schram &copy; 2015</p>
+                </div>
+
+                <div class="large-3 columns">
+                    <h4 id='headery'>TRAILS</h4>
+                    <ul id='traillist'>
+                      <li><a href='vancouvercity.html'>Vancouver City</a></li>
+                      <li><a href='whistler.html'>Whistler</a></li>
+                      <li><a href='tandd.html'>Tsawwassen and Delta</a></li>
+                      <li><a href='northshore.html'>The North Shore</a></li>
+                    </ul>
+                </div>
+
+                <div class="large-3 columns">
+                    <h4 id='headery'>COMPANY</h4>
+                    <ul id='traillist'>
+                      <li><a href='contact.html'>Contact</a></li>
+                      <li><a href='about.html'>About</a></li>
+                    </ul>
+                </div>
+
+                 <div class="large-3 columns">
+                    <h4 id='headery'>STAY CONNECTED</h4>
+                    <ul id='footersocialicons'>
+                        <a id='btmicons' href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+                        <a id='btmicons' href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
+                        <a id='btmicons' href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+                        <a id='btmicons' href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    </ul>
+                </div>
+
+                   </div>
+                </div>
+            </footer>
+         </div> 
+
+      
+      
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+
+    <script>
+      $(document).foundation();
+      $(document).ready(
+        function(){
+            
+            $('.homeheaders1').mouseover(
+               function(){
+                    $('.homeheaders1').css('background-color', 'rgba(0, 0, 0, 0.45)');
+               });
+            
+            $('.homeheaders1').mouseout(
+               function(){
+                    $('.homeheaders1').css('background-color', 'rgba(0, 0, 0, 0.25)');
+               });
+            
+             
+            $('.homeheaders2').mouseover(
+               function(){
+                    $('.homeheaders2').css('background-color', 'rgba(0, 0, 0, 0.45)');
+               });
+            
+            $('.homeheaders2').mouseout(
+               function(){
+                    $('.homeheaders2').css('background-color', 'rgba(0, 0, 0, 0.25)');
+               });
+            
+             
+            $('.homeheaders3').mouseover(
+               function(){
+                    $('.homeheaders3').css('background-color', 'rgba(0, 0, 0, 0.45)');
+               });
+            
+            $('.homeheaders3').mouseout(
+               function(){
+                    $('.homeheaders3').css('background-color', 'rgba(0, 0, 0, 0.25)');
+               });
+            
+             
+            $('.homeheaders4').mouseover(
+               function(){
+                    $('.homeheaders4').css('background-color', 'rgba(0, 0, 0, 0.45)');
+               });
+            
+            $('.homeheaders4').mouseout(
+               function(){
+                    $('.homeheaders4').css('background-color', 'rgba(0, 0, 0, 0.25)');
+               });
+            
+            $(window).ready(
+            function(){
+                var textbg = $('#homebgs');
+                textbg.css('position', 'fixed');
+        }
+            
+        );
+            
+         });
+    </script>
+  </body>
+</html>
